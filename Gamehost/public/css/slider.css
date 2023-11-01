@@ -1,0 +1,31 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+.slider_box{
+    height: 350px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.slider_line{
+    position: relative;
+    height: 300px;
+    width: 1500px;
+    display: flex;
+    transition: 0.3s linear;
+}
+.slider_img{
+
+    height: 300px;
+    width: 300px;
+}
+.slider-btn{
+    font-size: 20px;
+    background-color: #e5e5e5;
+    padding: 8px 12px;
+    cursor: pointer;
+}
